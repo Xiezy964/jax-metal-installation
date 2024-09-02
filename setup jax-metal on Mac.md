@@ -37,7 +37,7 @@ Now everything is ready, we can proceed to installing:
 However!! I highly recommend to choose the olest version among the feasible choices. Take the first line of the chart as an example, you may choose to install the jaxlib of version 0.4.26, because when I install the latest one (0.4.31), the jax-metal cannot recognize my GPU. 
 ```
 # you need to keep the versions of jax and jaxlib the same
-# and here I use pip for installation, conda may also works
+# and here I use pip for installation, conda may also work
 
 pip install jaxlib==0.4.26
 pip install jax==0.4.26
